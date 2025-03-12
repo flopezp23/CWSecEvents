@@ -16,7 +16,7 @@ class CloudWAFAPI(object):
     self.oktacookie = None
 
   def login(self):
-    payload = {"username": "automation@radwarecw.com","password": "pic16F877a!","options": {"multiOptionalFactorEnroll": True,"warnBeforePasswordExpired": True}}
+    payload = {"username": "","password": "","options": {"multiOptionalFactorEnroll": True,"warnBeforePasswordExpired": True}}
     payload["username"] = self.username
     payload["password"] = self.password
 
